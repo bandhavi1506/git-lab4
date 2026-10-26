@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/bandhavi1506/git-lab4.git'
             }
         }
