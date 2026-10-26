@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent
 
     environment {
         DOCKER_IMAGE = "bandhavi2006/lab4"
